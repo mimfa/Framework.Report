@@ -1,0 +1,33 @@
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\IDE\obj\Debug\MiMFa Framework.IDE.csproj.GenerateResource.cache
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\IDE\obj\Debug\MiMFa Framework.IDE.csproj.CoreCompileInputs.cache
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\IDE\bin\Debug\ClearScriptV8-32.dll
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\IDE\bin\Debug\ClearScriptV8-64.dll
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\IDE\bin\Debug\v8-zlib-ia32.dll
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\IDE\bin\Debug\v8-base-ia32.dll
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\IDE\bin\Debug\v8-ia32.dll
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\IDE\bin\Debug\v8-zlib-x64.dll
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\IDE\bin\Debug\v8-base-x64.dll
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\IDE\bin\Debug\v8-x64.dll
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\IDE\bin\Debug\MiMFa Framework.IDE.xml
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\IDE\bin\Debug\MiMFa Framework.IDE.dll
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\IDE\bin\Debug\MiMFa Framework.IDE.pdb
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\IDE\bin\Debug\ClearScript.dll
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\IDE\bin\Debug\ClearScript.xml
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\IDE\obj\Debug\MiMFa Framework.IDE.csproj.CopyComplete
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\IDE\obj\Debug\MiMFa Framework.IDE.dll
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\IDE\obj\Debug\MiMFa Framework.IDE.pdb
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\IDE\bin\Debug\MiMFa Framework.dll
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\IDE\bin\Debug\System.Data.SQLite.dll
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\IDE\bin\Debug\MiMFa Framework.pdb
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\IDE\bin\Debug\MiMFa Framework.dll.config
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\IDE\obj\Debug\MiMFa.Controls.WinForm.Editor.EditBox.resources
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\IDE\obj\Debug\MiMFa.Controls.WinForm.Editor.Tools.FindForm.resources
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\IDE\obj\Debug\MiMFa.Controls.WinForm.Editor.Tools.GoToForm.resources
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\IDE\obj\Debug\MiMFa.Controls.WinForm.Editor.Tools.HotkeysEditorForm.resources
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\IDE\obj\Debug\MiMFa.Controls.WinForm.Editor.Tools.ReplaceForm.resources
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\IDE\obj\Debug\MiMFa.Controls.WinForm.Reporter.ReportView.resources
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\IDE\obj\Debug\MiMFa.Properties.Resources.resources
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\IDE\bin\Debug\HtmlAgilityPack.dll
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\IDE\bin\Debug\HtmlAgilityPack.pdb
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\IDE\bin\Debug\HtmlAgilityPack.xml
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\IDE\obj\Debug\MiMFa Framework.IDE.csprojAssemblyReference.cache

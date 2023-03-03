@@ -14,11 +14,11 @@ namespace MiMFa.UIL.IDE
     {
         public static bool Initialize()
         {
-            return EverythingPlayer.API.Initialize();
+            return Player.API.Initialize();
         }
         public static bool Finalize()
         {
-            return EverythingPlayer.API.Finalize();
+            return Player.API.Finalize();
         }
     }
 }

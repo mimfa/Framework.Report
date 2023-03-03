@@ -212,7 +212,6 @@ D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\Reporter\bin\Debu
 D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\Reporter\bin\Debug\MiMFa Framework.Report.pdb
 D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\Reporter\bin\Debug\Microsoft.CSharp.dll
 D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\Reporter\bin\Debug\Microsoft.mshtml.dll
-D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\Reporter\bin\Debug\MiMFa Everything Player.exe
 D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\Reporter\bin\Debug\MiMFa Framework.dll
 D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\Reporter\bin\Debug\MiMFa Framework.Editor.exe
 D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\Reporter\bin\Debug\MiMFa Framework.Interpreter.dll
@@ -228,8 +227,6 @@ D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\Reporter\bin\Debu
 D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\Reporter\bin\Debug\MiMFa Framework.dll.config
 D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\Reporter\bin\Debug\MiMFa Framework.Editor.pdb
 D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\Reporter\bin\Debug\MiMFa Framework.Editor.exe.config
-D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\Reporter\bin\Debug\MiMFa Everything Player.pdb
-D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\Reporter\bin\Debug\MiMFa Everything Player.exe.config
 D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\Reporter\bin\Debug\MiMFa Framework.Interpreter.pdb
 D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\Reporter\bin\Debug\ClearScript.Core.xml
 D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\Reporter\bin\Debug\ClearScript.V8.xml
@@ -317,4 +314,6 @@ D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\Reporter\bin\Debu
 D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\Reporter\bin\Debug\locales\zh-CN.pak
 D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\Reporter\bin\Debug\locales\zh-TW.pak
 D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\Reporter\bin\Debug\HtmlAgilityPack.dll
-D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\Reporter\bin\Debug\Aspose.Words.dll
+D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\Reporter\bin\Debug\MiMFa Player.exe
+D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\Reporter\bin\Debug\MiMFa Player.pdb
+D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\Reporter\bin\Debug\MiMFa Player.exe.config

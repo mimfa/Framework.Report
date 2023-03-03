@@ -93,13 +93,13 @@
       <Project>{ed0e2dad-4b4e-4b7c-a546-b48ada5023fc}</Project>
       <Name>MiMFa.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="..\EverythingPlayer\MiMFa.EverythingPlayer.csproj">
-      <Project>{9e9d92ae-d0d6-4852-a720-e33c81a34cd6}</Project>
-      <Name>MiMFa.EverythingPlayer</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Interpreter\MiMFa.Interpreter.csproj">
       <Project>{d7c7a63a-c0a5-4686-86e4-3552fc7776ae}</Project>
       <Name>MiMFa.Interpreter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Player\MiMFa.Player.csproj">
+      <Project>{9e9d92ae-d0d6-4852-a720-e33c81a34cd6}</Project>
+      <Name>MiMFa.Player</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

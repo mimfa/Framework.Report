@@ -97,6 +97,7 @@ namespace MiMFa.Controls.WinForm.Reporter
         public virtual bool AllowNavigate { get => ViewBox.AllowNavigate; set => ViewBox.AllowNavigate = value; }
         public virtual bool RealTimeChanges { get; set; } = false;
         public virtual bool Freezing { get; set; } = true;
+        public virtual bool HasTemplate => !string.IsNullOrWhiteSpace(TemplatePath) && File.Exists(TemplatePath);
         //[Browsable(false)]
         public virtual string TemplatesDirectory { get => _TemplatesDirectory; set { _TemplatesDirectory = value;  ResetTemplates();  } }
         protected string _TemplatesDirectory = null;
@@ -527,7 +528,7 @@ namespace MiMFa.Controls.WinForm.Reporter
             TableLayoutPanel tlp = NewTable(2, 1);
             if (value == null)
             {
-                Panel tb = new Panel();
+                System.Windows.Forms.Panel tb = new System.Windows.Forms.Panel();
                 tb.BorderStyle = BorderStyle.None;
                 tb.Text = value;
                 tb.AutoSize = true;
@@ -684,9 +685,9 @@ namespace MiMFa.Controls.WinForm.Reporter
                 return SetOption(label, tb);
             }
         }
-        public virtual Button AddOption(string label, string title, object value, dynamic changed = null)
+        public virtual System.Windows.Forms.Button AddOption(string label, string title, object value, dynamic changed = null)
         {
-            Button tb = new Button();
+            System.Windows.Forms.Button tb = new System.Windows.Forms.Button();
             tb.Text = title;
             tb.TextAlign = ContentAlignment.MiddleCenter;
             tb.FlatStyle = FlatStyle.Flat;
@@ -867,9 +868,9 @@ namespace MiMFa.Controls.WinForm.Reporter
             SetScope();
             SetMaximum();
             SetPath(TemplatePath = path ?? TemplatePath ?? DefaultTemplatePath);
-            if (string.IsNullOrWhiteSpace(TemplatePath) || !File.Exists(TemplatePath))
-                Execute(DefaultTemplate + Environment.NewLine + CreateSafeCode(InitialFunctionName + "();"), false);
-            else Execute(DefaultTemplate + Environment.NewLine + File.ReadAllText(TemplatePath) + Environment.NewLine + CreateSafeCode(InitialFunctionName + "();"), false);
+            if (HasTemplate)
+                Execute(DefaultTemplate + Environment.NewLine + File.ReadAllText(TemplatePath) + Environment.NewLine + CreateSafeCode(InitialFunctionName + "();"), false);
+            else Execute(DefaultTemplate + Environment.NewLine + CreateSafeCode(InitialFunctionName + "();"), false);
             OptionsPanel.Update();
         }
         public virtual void Main()
@@ -882,14 +883,14 @@ namespace MiMFa.Controls.WinForm.Reporter
         }
         public virtual void Completion()
         {
-            Execute(CreateSafeCode(CompletionFunctionName + "();"), !Freezing);
+            if (HasTemplate) Execute(CreateSafeCode(CompletionFunctionName + "();"), !Freezing);
         }
         public virtual void Final()
         {
             //Clear();
             SetScope();
             SetMaximum();
-            Execute(CreateSafeCode(FinalFunctionName + "();"), !Freezing);
+            if(HasTemplate) Execute(CreateSafeCode(FinalFunctionName + "();"), !Freezing);
         }
 
 

@@ -236,8 +236,6 @@ D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\Reporter\bin\Debu
 D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\Reporter\bin\Debug\HtmlAgilityPack.xml
 D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\Reporter\bin\Debug\Microsoft.CSharp.xml
 D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\Reporter\bin\Debug\System.ValueTuple.xml
-D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\Reporter\bin\Debug\MiMFa Framework.Windows.pdb
-D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\Reporter\bin\Debug\MiMFa Framework.Windows.dll.config
 D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\Reporter\bin\Debug\CefSharp.pdb
 D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\Reporter\bin\Debug\CefSharp.xml
 D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\Reporter\bin\Debug\CefSharp.WinForms.pdb
@@ -317,3 +315,4 @@ D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\Reporter\bin\Debu
 D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\Reporter\bin\Debug\MiMFa Player.exe
 D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\Reporter\bin\Debug\MiMFa Player.pdb
 D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\Reporter\bin\Debug\MiMFa Player.exe.config
+D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\Reporter\bin\Debug\Aspose.Words.dll

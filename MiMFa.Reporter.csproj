@@ -139,6 +139,10 @@
     <Reference Include="Microsoft.mshtml">
       <HintPath>C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\PublicAssemblies\Microsoft.mshtml.dll</HintPath>
     </Reference>
+    <Reference Include="MiMFa Framework.Windows, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\My Work\Commercial Project\Entity\Green Goals\EIA+\Software\EIA+\bin\Debug\MiMFa Framework.Windows.dll</HintPath>
+    </Reference>
     <Reference Include="System">
       <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.dll</HintPath>
     </Reference>

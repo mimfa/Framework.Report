@@ -95,6 +95,8 @@ namespace MiMFa.Controls.WinForm.Reporter
 
         public virtual bool AllowManage { get => ManagePanel.Visible; set => ManagePanel.Visible = value; }
         public virtual bool AllowNavigate { get => ViewBox.AllowNavigate; set => ViewBox.AllowNavigate = value; }
+        public virtual bool AllowChangeTemplate { get => TitleDescriptionButton.Visible; set => TitleDescriptionButton.Visible = value; }
+        public virtual bool AllowEditTemplate { get => SidePanelEditButton.Visible; set => SidePanelEditButton.Visible = value; }
         public virtual bool RealTimeChanges { get; set; } = false;
         public virtual bool Freezing { get; set; } = true;
         public virtual bool HasTemplate => !string.IsNullOrWhiteSpace(TemplatePath) && File.Exists(TemplatePath);
@@ -458,6 +460,15 @@ namespace MiMFa.Controls.WinForm.Reporter
             ClearTemplates();
             AddTemplates(TemplatesDirectory);
             //Init();
+        }
+        public virtual void EditTemplate(string path = null)
+        {
+            path = path ?? TemplatePath;
+            if (string.IsNullOrEmpty(path)) return;
+            var ed = new MiMFa.UIL.Editor.EditDialog(path);
+            ed.Editor.SetSourceItems(Engine);
+            ed.Saved += (o, e) => Reset(true);
+            ed.Show();
         }
         public virtual void AddTemplates(string address)
         {
@@ -1090,6 +1101,10 @@ namespace MiMFa.Controls.WinForm.Reporter
             ViewBox.NavigateNext();
             BackButton.Enabled = ViewBox.Backable;
             NextButton.Enabled = ViewBox.Nextable;
+        }
+        private void SidePanelEditButton_Click(object sender, EventArgs e)
+        {
+            EditTemplate();
         }
     }
 }

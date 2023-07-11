@@ -49,6 +49,7 @@
             this.dgvc_Templates = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dgv_Path = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TitlePanel = new System.Windows.Forms.TableLayoutPanel();
+            this.SidePanelEditButton = new System.Windows.Forms.Button();
             this.TitleLabel = new System.Windows.Forms.Label();
             this.TitleDescriptionButton = new System.Windows.Forms.Button();
             this.ShowOptionsButton = new System.Windows.Forms.Button();
@@ -94,7 +95,7 @@
             this.TemplatePanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.TemplatePanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.TemplatePanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.TemplatePanel.Size = new System.Drawing.Size(320, 401);
+            this.TemplatePanel.Size = new System.Drawing.Size(495, 708);
             this.TemplatePanel.TabIndex = 1;
             // 
             // OptionsPanel
@@ -104,16 +105,16 @@
             this.OptionsPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.OptionsPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.OptionsPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.OptionsPanel.Location = new System.Drawing.Point(0, 264);
-            this.OptionsPanel.Margin = new System.Windows.Forms.Padding(0, 5, 0, 5);
+            this.OptionsPanel.Location = new System.Drawing.Point(0, 321);
+            this.OptionsPanel.Margin = new System.Windows.Forms.Padding(0, 6, 0, 6);
             this.OptionsPanel.Name = "OptionsPanel";
             this.OptionsPanel.RowCount = 1;
             this.OptionsPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.OptionsPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 132F));
-            this.OptionsPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 132F));
-            this.OptionsPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 132F));
-            this.OptionsPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 132F));
-            this.OptionsPanel.Size = new System.Drawing.Size(320, 132);
+            this.OptionsPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 381F));
+            this.OptionsPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 381F));
+            this.OptionsPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 381F));
+            this.OptionsPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 381F));
+            this.OptionsPanel.Size = new System.Drawing.Size(495, 381);
             this.OptionsPanel.TabIndex = 15;
             this.OptionsPanel.Visible = false;
             // 
@@ -123,9 +124,10 @@
             this.MainOptionsPanel.Controls.Add(this.PrintPanel);
             this.MainOptionsPanel.Controls.Add(this.TemplatesBox);
             this.MainOptionsPanel.Dock = System.Windows.Forms.DockStyle.Top;
-            this.MainOptionsPanel.Location = new System.Drawing.Point(3, 50);
+            this.MainOptionsPanel.Location = new System.Drawing.Point(4, 62);
+            this.MainOptionsPanel.Margin = new System.Windows.Forms.Padding(4);
             this.MainOptionsPanel.Name = "MainOptionsPanel";
-            this.MainOptionsPanel.Size = new System.Drawing.Size(314, 166);
+            this.MainOptionsPanel.Size = new System.Drawing.Size(487, 202);
             this.MainOptionsPanel.TabIndex = 13;
             // 
             // PrintPanel
@@ -140,7 +142,7 @@
             this.PrintPanel.Location = new System.Drawing.Point(0, 0);
             this.PrintPanel.Margin = new System.Windows.Forms.Padding(0);
             this.PrintPanel.Name = "PrintPanel";
-            this.PrintPanel.Padding = new System.Windows.Forms.Padding(0, 5, 0, 0);
+            this.PrintPanel.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
             this.PrintPanel.RowCount = 8;
             this.PrintPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.PrintPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -150,8 +152,8 @@
             this.PrintPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.PrintPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.PrintPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.PrintPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.PrintPanel.Size = new System.Drawing.Size(314, 166);
+            this.PrintPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
+            this.PrintPanel.Size = new System.Drawing.Size(487, 202);
             this.PrintPanel.TabIndex = 17;
             // 
             // StartPrintButton
@@ -162,10 +164,11 @@
             this.StartPrintButton.FlatAppearance.BorderSize = 0;
             this.StartPrintButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.StartPrintButton.Font = new System.Drawing.Font("Segoe UI Light", 20F);
-            this.StartPrintButton.Location = new System.Drawing.Point(3, 8);
+            this.StartPrintButton.Location = new System.Drawing.Point(4, 10);
+            this.StartPrintButton.Margin = new System.Windows.Forms.Padding(4);
             this.StartPrintButton.Name = "StartPrintButton";
-            this.StartPrintButton.Padding = new System.Windows.Forms.Padding(0, 5, 0, 5);
-            this.StartPrintButton.Size = new System.Drawing.Size(308, 57);
+            this.StartPrintButton.Padding = new System.Windows.Forms.Padding(0, 6, 0, 6);
+            this.StartPrintButton.Size = new System.Drawing.Size(479, 68);
             this.StartPrintButton.TabIndex = 14;
             this.StartPrintButton.Text = "⎙ Start Print";
             this.StartPrintButton.UseVisualStyleBackColor = false;
@@ -182,23 +185,23 @@
             this.DefaultOptionsPanel.Controls.Add(this.ItemsScopeLabel, 0, 0);
             this.DefaultOptionsPanel.Controls.Add(this.ItemsScopeInput, 0, 1);
             this.DefaultOptionsPanel.Dock = System.Windows.Forms.DockStyle.Top;
-            this.DefaultOptionsPanel.Location = new System.Drawing.Point(0, 109);
+            this.DefaultOptionsPanel.Location = new System.Drawing.Point(0, 132);
             this.DefaultOptionsPanel.Margin = new System.Windows.Forms.Padding(0);
             this.DefaultOptionsPanel.Name = "DefaultOptionsPanel";
             this.DefaultOptionsPanel.RowCount = 2;
             this.DefaultOptionsPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.DefaultOptionsPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.DefaultOptionsPanel.Size = new System.Drawing.Size(314, 57);
+            this.DefaultOptionsPanel.Size = new System.Drawing.Size(487, 70);
             this.DefaultOptionsPanel.TabIndex = 15;
             // 
             // MaxItemsLabel
             // 
             this.MaxItemsLabel.AutoSize = true;
             this.MaxItemsLabel.Dock = System.Windows.Forms.DockStyle.Top;
-            this.MaxItemsLabel.Location = new System.Drawing.Point(160, 10);
-            this.MaxItemsLabel.Margin = new System.Windows.Forms.Padding(3, 10, 3, 0);
+            this.MaxItemsLabel.Location = new System.Drawing.Point(247, 12);
+            this.MaxItemsLabel.Margin = new System.Windows.Forms.Padding(4, 12, 4, 0);
             this.MaxItemsLabel.Name = "MaxItemsLabel";
-            this.MaxItemsLabel.Size = new System.Drawing.Size(151, 13);
+            this.MaxItemsLabel.Size = new System.Drawing.Size(236, 17);
             this.MaxItemsLabel.TabIndex = 12;
             this.MaxItemsLabel.Text = "Maximum Items";
             this.MaxItemsLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -208,10 +211,11 @@
             this.MaxItemsInput.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.MaxItemsInput.Dock = System.Windows.Forms.DockStyle.Top;
             this.MaxItemsInput.Font = new System.Drawing.Font("Microsoft JhengHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MaxItemsInput.Location = new System.Drawing.Point(160, 26);
+            this.MaxItemsInput.Location = new System.Drawing.Point(247, 33);
+            this.MaxItemsInput.Margin = new System.Windows.Forms.Padding(4);
             this.MaxItemsInput.MaxLength = 10;
             this.MaxItemsInput.Name = "MaxItemsInput";
-            this.MaxItemsInput.Size = new System.Drawing.Size(151, 28);
+            this.MaxItemsInput.Size = new System.Drawing.Size(236, 33);
             this.MaxItemsInput.TabIndex = 12;
             this.MaxItemsInput.Text = "10000";
             this.MaxItemsInput.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -222,10 +226,10 @@
             // 
             this.ItemsScopeLabel.AutoSize = true;
             this.ItemsScopeLabel.Dock = System.Windows.Forms.DockStyle.Top;
-            this.ItemsScopeLabel.Location = new System.Drawing.Point(3, 10);
-            this.ItemsScopeLabel.Margin = new System.Windows.Forms.Padding(3, 10, 3, 0);
+            this.ItemsScopeLabel.Location = new System.Drawing.Point(4, 12);
+            this.ItemsScopeLabel.Margin = new System.Windows.Forms.Padding(4, 12, 4, 0);
             this.ItemsScopeLabel.Name = "ItemsScopeLabel";
-            this.ItemsScopeLabel.Size = new System.Drawing.Size(151, 13);
+            this.ItemsScopeLabel.Size = new System.Drawing.Size(235, 17);
             this.ItemsScopeLabel.TabIndex = 10;
             this.ItemsScopeLabel.Text = "Print Scope";
             this.ItemsScopeLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -235,9 +239,10 @@
             this.ItemsScopeInput.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ItemsScopeInput.Dock = System.Windows.Forms.DockStyle.Top;
             this.ItemsScopeInput.Font = new System.Drawing.Font("Microsoft JhengHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ItemsScopeInput.Location = new System.Drawing.Point(3, 26);
+            this.ItemsScopeInput.Location = new System.Drawing.Point(4, 33);
+            this.ItemsScopeInput.Margin = new System.Windows.Forms.Padding(4);
             this.ItemsScopeInput.Name = "ItemsScopeInput";
-            this.ItemsScopeInput.Size = new System.Drawing.Size(151, 28);
+            this.ItemsScopeInput.Size = new System.Drawing.Size(235, 33);
             this.ItemsScopeInput.TabIndex = 10;
             this.ItemsScopeInput.Text = "All";
             this.ItemsScopeInput.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -255,14 +260,14 @@
             this.tableLayoutPanel1.Controls.Add(this.NextButton, 2, 0);
             this.tableLayoutPanel1.Controls.Add(this.BackButton, 0, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 68);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 82);
             this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.Padding = new System.Windows.Forms.Padding(5);
+            this.tableLayoutPanel1.Padding = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 31F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(314, 41);
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 38F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(487, 50);
             this.tableLayoutPanel1.TabIndex = 16;
             // 
             // ExportButton
@@ -272,10 +277,10 @@
             this.ExportButton.Dock = System.Windows.Forms.DockStyle.Left;
             this.ExportButton.FlatAppearance.BorderSize = 0;
             this.ExportButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ExportButton.Location = new System.Drawing.Point(124, 5);
+            this.ExportButton.Location = new System.Drawing.Point(191, 6);
             this.ExportButton.Margin = new System.Windows.Forms.Padding(0);
             this.ExportButton.Name = "ExportButton";
-            this.ExportButton.Size = new System.Drawing.Size(66, 31);
+            this.ExportButton.Size = new System.Drawing.Size(104, 38);
             this.ExportButton.TabIndex = 10;
             this.ExportButton.Text = "⏫ Export";
             this.ExportButton.UseVisualStyleBackColor = false;
@@ -288,10 +293,10 @@
             this.NextButton.Dock = System.Windows.Forms.DockStyle.Right;
             this.NextButton.FlatAppearance.BorderSize = 0;
             this.NextButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.NextButton.Location = new System.Drawing.Point(243, 5);
+            this.NextButton.Location = new System.Drawing.Point(392, 6);
             this.NextButton.Margin = new System.Windows.Forms.Padding(0);
             this.NextButton.Name = "NextButton";
-            this.NextButton.Size = new System.Drawing.Size(66, 31);
+            this.NextButton.Size = new System.Drawing.Size(88, 38);
             this.NextButton.TabIndex = 15;
             this.NextButton.Text = "Next ►";
             this.NextButton.UseVisualStyleBackColor = false;
@@ -304,10 +309,10 @@
             this.BackButton.Dock = System.Windows.Forms.DockStyle.Left;
             this.BackButton.FlatAppearance.BorderSize = 0;
             this.BackButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BackButton.Location = new System.Drawing.Point(5, 5);
+            this.BackButton.Location = new System.Drawing.Point(7, 6);
             this.BackButton.Margin = new System.Windows.Forms.Padding(0);
             this.BackButton.Name = "BackButton";
-            this.BackButton.Size = new System.Drawing.Size(66, 31);
+            this.BackButton.Size = new System.Drawing.Size(88, 38);
             this.BackButton.TabIndex = 14;
             this.BackButton.Text = "◄ Back";
             this.BackButton.UseVisualStyleBackColor = false;
@@ -349,9 +354,9 @@
             this.TemplatesBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TemplatesBox.EnableHeadersVisualStyles = false;
             this.TemplatesBox.Location = new System.Drawing.Point(0, 0);
-            this.TemplatesBox.Margin = new System.Windows.Forms.Padding(0, 5, 0, 10);
-            this.TemplatesBox.MaximumSize = new System.Drawing.Size(0, 250);
-            this.TemplatesBox.MinimumSize = new System.Drawing.Size(0, 50);
+            this.TemplatesBox.Margin = new System.Windows.Forms.Padding(0, 6, 0, 12);
+            this.TemplatesBox.MaximumSize = new System.Drawing.Size(0, 308);
+            this.TemplatesBox.MinimumSize = new System.Drawing.Size(0, 62);
             this.TemplatesBox.MultiSelect = false;
             this.TemplatesBox.Name = "TemplatesBox";
             this.TemplatesBox.ReadOnly = true;
@@ -368,7 +373,7 @@
             this.TemplatesBox.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.TemplatesBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.TemplatesBox.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.TemplatesBox.Size = new System.Drawing.Size(314, 166);
+            this.TemplatesBox.Size = new System.Drawing.Size(487, 202);
             this.TemplatesBox.TabIndex = 14;
             this.TemplatesBox.Visible = false;
             this.TemplatesBox.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.TemplatesList_CellClick);
@@ -379,6 +384,7 @@
             // 
             this.dgvc_Templates.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.dgvc_Templates.HeaderText = "Templates";
+            this.dgvc_Templates.MinimumWidth = 6;
             this.dgvc_Templates.Name = "dgvc_Templates";
             this.dgvc_Templates.ReadOnly = true;
             this.dgvc_Templates.Resizable = System.Windows.Forms.DataGridViewTriState.False;
@@ -388,41 +394,59 @@
             // dgv_Path
             // 
             this.dgv_Path.HeaderText = "Path";
+            this.dgv_Path.MinimumWidth = 6;
             this.dgv_Path.Name = "dgv_Path";
             this.dgv_Path.ReadOnly = true;
             this.dgv_Path.Visible = false;
+            this.dgv_Path.Width = 125;
             // 
             // TitlePanel
             // 
             this.TitlePanel.AutoSize = true;
-            this.TitlePanel.ColumnCount = 2;
+            this.TitlePanel.ColumnCount = 3;
             this.TitlePanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.TitlePanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.TitlePanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.TitlePanel.Controls.Add(this.SidePanelEditButton, 2, 1);
             this.TitlePanel.Controls.Add(this.TitleLabel, 1, 1);
             this.TitlePanel.Controls.Add(this.TitleDescriptionButton, 0, 1);
             this.TitlePanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.TitlePanel.Location = new System.Drawing.Point(0, 0);
             this.TitlePanel.Margin = new System.Windows.Forms.Padding(0);
             this.TitlePanel.Name = "TitlePanel";
-            this.TitlePanel.Padding = new System.Windows.Forms.Padding(3);
+            this.TitlePanel.Padding = new System.Windows.Forms.Padding(4);
+            this.TitlePanel.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.TitlePanel.RowCount = 2;
             this.TitlePanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.TitlePanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.TitlePanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.TitlePanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.TitlePanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.TitlePanel.Size = new System.Drawing.Size(320, 47);
+            this.TitlePanel.Size = new System.Drawing.Size(495, 58);
             this.TitlePanel.TabIndex = 21;
+            // 
+            // SidePanelEditButton
+            // 
+            this.SidePanelEditButton.AutoSize = true;
+            this.SidePanelEditButton.BackColor = System.Drawing.Color.Transparent;
+            this.SidePanelEditButton.Dock = System.Windows.Forms.DockStyle.Right;
+            this.SidePanelEditButton.FlatAppearance.BorderSize = 0;
+            this.SidePanelEditButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SidePanelEditButton.Location = new System.Drawing.Point(453, 12);
+            this.SidePanelEditButton.Margin = new System.Windows.Forms.Padding(8);
+            this.SidePanelEditButton.Name = "SidePanelEditButton";
+            this.SidePanelEditButton.Size = new System.Drawing.Size(30, 34);
+            this.SidePanelEditButton.TabIndex = 8;
+            this.SidePanelEditButton.Text = "🖉";
+            this.SidePanelEditButton.UseVisualStyleBackColor = false;
+            this.SidePanelEditButton.Click += new System.EventHandler(this.SidePanelEditButton_Click);
             // 
             // TitleLabel
             // 
             this.TitleLabel.AutoSize = true;
             this.TitleLabel.Dock = System.Windows.Forms.DockStyle.Left;
             this.TitleLabel.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.TitleLabel.Location = new System.Drawing.Point(91, 6);
-            this.TitleLabel.Margin = new System.Windows.Forms.Padding(3);
+            this.TitleLabel.Location = new System.Drawing.Point(113, 8);
+            this.TitleLabel.Margin = new System.Windows.Forms.Padding(4);
             this.TitleLabel.Name = "TitleLabel";
-            this.TitleLabel.Size = new System.Drawing.Size(63, 35);
+            this.TitleLabel.Size = new System.Drawing.Size(79, 42);
             this.TitleLabel.TabIndex = 0;
             this.TitleLabel.Text = "▼   Preview";
             this.TitleLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -435,9 +459,10 @@
             this.TitleDescriptionButton.FlatAppearance.BorderSize = 0;
             this.TitleDescriptionButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.TitleDescriptionButton.Font = new System.Drawing.Font("Segoe UI Light", 14F);
-            this.TitleDescriptionButton.Location = new System.Drawing.Point(6, 6);
+            this.TitleDescriptionButton.Location = new System.Drawing.Point(8, 8);
+            this.TitleDescriptionButton.Margin = new System.Windows.Forms.Padding(4);
             this.TitleDescriptionButton.Name = "TitleDescriptionButton";
-            this.TitleDescriptionButton.Size = new System.Drawing.Size(79, 35);
+            this.TitleDescriptionButton.Size = new System.Drawing.Size(97, 42);
             this.TitleDescriptionButton.TabIndex = 1;
             this.TitleDescriptionButton.Text = "Default";
             this.TitleDescriptionButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -451,11 +476,11 @@
             this.ShowOptionsButton.Dock = System.Windows.Forms.DockStyle.Top;
             this.ShowOptionsButton.FlatAppearance.BorderSize = 0;
             this.ShowOptionsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ShowOptionsButton.Location = new System.Drawing.Point(3, 229);
-            this.ShowOptionsButton.Margin = new System.Windows.Forms.Padding(3, 10, 3, 0);
+            this.ShowOptionsButton.Location = new System.Drawing.Point(4, 280);
+            this.ShowOptionsButton.Margin = new System.Windows.Forms.Padding(4, 12, 4, 0);
             this.ShowOptionsButton.Name = "ShowOptionsButton";
-            this.ShowOptionsButton.Padding = new System.Windows.Forms.Padding(0, 5, 0, 2);
-            this.ShowOptionsButton.Size = new System.Drawing.Size(314, 30);
+            this.ShowOptionsButton.Padding = new System.Windows.Forms.Padding(0, 6, 0, 2);
+            this.ShowOptionsButton.Size = new System.Drawing.Size(487, 35);
             this.ShowOptionsButton.TabIndex = 20;
             this.ShowOptionsButton.Text = "Advance";
             this.ShowOptionsButton.UseVisualStyleBackColor = false;
@@ -474,12 +499,12 @@
             this.SidePanelButtonPanel.Controls.Add(this.SidePanelApplyButton, 2, 0);
             this.SidePanelButtonPanel.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.SidePanelButtonPanel.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SidePanelButtonPanel.Location = new System.Drawing.Point(0, 401);
+            this.SidePanelButtonPanel.Location = new System.Drawing.Point(0, 708);
             this.SidePanelButtonPanel.Margin = new System.Windows.Forms.Padding(0);
             this.SidePanelButtonPanel.Name = "SidePanelButtonPanel";
             this.SidePanelButtonPanel.RowCount = 1;
             this.SidePanelButtonPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.SidePanelButtonPanel.Size = new System.Drawing.Size(320, 46);
+            this.SidePanelButtonPanel.Size = new System.Drawing.Size(495, 53);
             this.SidePanelButtonPanel.TabIndex = 16;
             // 
             // SidePanelRefreshButton
@@ -489,9 +514,10 @@
             this.SidePanelRefreshButton.Dock = System.Windows.Forms.DockStyle.Left;
             this.SidePanelRefreshButton.FlatAppearance.BorderSize = 0;
             this.SidePanelRefreshButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.SidePanelRefreshButton.Location = new System.Drawing.Point(3, 3);
+            this.SidePanelRefreshButton.Location = new System.Drawing.Point(4, 4);
+            this.SidePanelRefreshButton.Margin = new System.Windows.Forms.Padding(4);
             this.SidePanelRefreshButton.Name = "SidePanelRefreshButton";
-            this.SidePanelRefreshButton.Size = new System.Drawing.Size(39, 40);
+            this.SidePanelRefreshButton.Size = new System.Drawing.Size(63, 45);
             this.SidePanelRefreshButton.TabIndex = 6;
             this.SidePanelRefreshButton.Text = "⟳";
             this.SidePanelRefreshButton.UseVisualStyleBackColor = false;
@@ -501,12 +527,13 @@
             // 
             this.SidePanelHideButton.AutoSize = true;
             this.SidePanelHideButton.BackColor = System.Drawing.Color.Transparent;
-            this.SidePanelHideButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.SidePanelHideButton.Dock = System.Windows.Forms.DockStyle.Top;
             this.SidePanelHideButton.FlatAppearance.BorderSize = 0;
             this.SidePanelHideButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.SidePanelHideButton.Location = new System.Drawing.Point(112, 3);
+            this.SidePanelHideButton.Location = new System.Drawing.Point(183, 4);
+            this.SidePanelHideButton.Margin = new System.Windows.Forms.Padding(4);
             this.SidePanelHideButton.Name = "SidePanelHideButton";
-            this.SidePanelHideButton.Size = new System.Drawing.Size(45, 40);
+            this.SidePanelHideButton.Size = new System.Drawing.Size(50, 45);
             this.SidePanelHideButton.TabIndex = 5;
             this.SidePanelHideButton.Text = "✕";
             this.SidePanelHideButton.UseVisualStyleBackColor = false;
@@ -516,13 +543,14 @@
             // 
             this.SidePanelApplyButton.AutoSize = true;
             this.SidePanelApplyButton.BackColor = System.Drawing.Color.RoyalBlue;
-            this.SidePanelApplyButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.SidePanelApplyButton.Dock = System.Windows.Forms.DockStyle.Top;
             this.SidePanelApplyButton.FlatAppearance.BorderSize = 0;
             this.SidePanelApplyButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.SidePanelApplyButton.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.SidePanelApplyButton.Location = new System.Drawing.Point(163, 3);
+            this.SidePanelApplyButton.Location = new System.Drawing.Point(241, 4);
+            this.SidePanelApplyButton.Margin = new System.Windows.Forms.Padding(4);
             this.SidePanelApplyButton.Name = "SidePanelApplyButton";
-            this.SidePanelApplyButton.Size = new System.Drawing.Size(45, 40);
+            this.SidePanelApplyButton.Size = new System.Drawing.Size(70, 45);
             this.SidePanelApplyButton.TabIndex = 4;
             this.SidePanelApplyButton.Text = "✓";
             this.SidePanelApplyButton.UseVisualStyleBackColor = false;
@@ -544,11 +572,13 @@
             this.ManagePanel.Controls.Add(this.PreviousPageButton, 2, 0);
             this.ManagePanel.Controls.Add(this.PageNumberLabel, 3, 0);
             this.ManagePanel.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.ManagePanel.Location = new System.Drawing.Point(327, 421);
+            this.ManagePanel.Location = new System.Drawing.Point(504, 729);
+            this.ManagePanel.Margin = new System.Windows.Forms.Padding(4);
             this.ManagePanel.Name = "ManagePanel";
+            this.ManagePanel.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.ManagePanel.RowCount = 1;
             this.ManagePanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.ManagePanel.Size = new System.Drawing.Size(723, 28);
+            this.ManagePanel.Size = new System.Drawing.Size(956, 34);
             this.ManagePanel.TabIndex = 2;
             // 
             // RefreshButton
@@ -559,10 +589,10 @@
             this.RefreshButton.FlatAppearance.BorderSize = 0;
             this.RefreshButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.RefreshButton.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RefreshButton.Location = new System.Drawing.Point(692, 0);
+            this.RefreshButton.Location = new System.Drawing.Point(911, 0);
             this.RefreshButton.Margin = new System.Windows.Forms.Padding(0);
             this.RefreshButton.Name = "RefreshButton";
-            this.RefreshButton.Size = new System.Drawing.Size(31, 28);
+            this.RefreshButton.Size = new System.Drawing.Size(45, 34);
             this.RefreshButton.TabIndex = 14;
             this.RefreshButton.Text = "↻";
             this.RefreshButton.UseMnemonic = false;
@@ -580,7 +610,7 @@
             this.SidePanelToggleButton.Location = new System.Drawing.Point(0, 0);
             this.SidePanelToggleButton.Margin = new System.Windows.Forms.Padding(0);
             this.SidePanelToggleButton.Name = "SidePanelToggleButton";
-            this.SidePanelToggleButton.Size = new System.Drawing.Size(38, 28);
+            this.SidePanelToggleButton.Size = new System.Drawing.Size(57, 34);
             this.SidePanelToggleButton.TabIndex = 4;
             this.SidePanelToggleButton.Text = "⚙️";
             this.SidePanelToggleButton.UseMnemonic = false;
@@ -595,10 +625,10 @@
             this.NextPageButton.FlatAppearance.BorderSize = 0;
             this.NextPageButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.NextPageButton.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NextPageButton.Location = new System.Drawing.Point(381, 0);
-            this.NextPageButton.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.NextPageButton.Location = new System.Drawing.Point(503, 0);
+            this.NextPageButton.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.NextPageButton.Name = "NextPageButton";
-            this.NextPageButton.Size = new System.Drawing.Size(30, 28);
+            this.NextPageButton.Size = new System.Drawing.Size(40, 34);
             this.NextPageButton.TabIndex = 11;
             this.NextPageButton.Text = "⮞";
             this.NextPageButton.UseVisualStyleBackColor = false;
@@ -612,10 +642,10 @@
             this.PreviousPageButton.FlatAppearance.BorderSize = 0;
             this.PreviousPageButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.PreviousPageButton.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PreviousPageButton.Location = new System.Drawing.Point(312, 0);
-            this.PreviousPageButton.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.PreviousPageButton.Location = new System.Drawing.Point(413, 0);
+            this.PreviousPageButton.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.PreviousPageButton.Name = "PreviousPageButton";
-            this.PreviousPageButton.Size = new System.Drawing.Size(30, 28);
+            this.PreviousPageButton.Size = new System.Drawing.Size(40, 34);
             this.PreviousPageButton.TabIndex = 12;
             this.PreviousPageButton.Text = "⮜";
             this.PreviousPageButton.UseVisualStyleBackColor = false;
@@ -625,10 +655,10 @@
             // 
             this.PageNumberLabel.AutoSize = true;
             this.PageNumberLabel.Dock = System.Windows.Forms.DockStyle.Left;
-            this.PageNumberLabel.Location = new System.Drawing.Point(355, 0);
-            this.PageNumberLabel.Margin = new System.Windows.Forms.Padding(10, 0, 10, 0);
+            this.PageNumberLabel.Location = new System.Drawing.Point(470, 0);
+            this.PageNumberLabel.Margin = new System.Windows.Forms.Padding(13, 0, 13, 0);
             this.PageNumberLabel.Name = "PageNumberLabel";
-            this.PageNumberLabel.Size = new System.Drawing.Size(13, 28);
+            this.PageNumberLabel.Size = new System.Drawing.Size(16, 34);
             this.PageNumberLabel.TabIndex = 13;
             this.PageNumberLabel.Text = "1";
             this.PageNumberLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -640,9 +670,10 @@
             this.SidePanel.Controls.Add(this.SidePanelButtonPanel);
             this.SidePanel.Dock = System.Windows.Forms.DockStyle.Left;
             this.SidePanel.Location = new System.Drawing.Point(0, 0);
+            this.SidePanel.Margin = new System.Windows.Forms.Padding(4);
             this.SidePanel.Name = "SidePanel";
-            this.SidePanel.Padding = new System.Windows.Forms.Padding(0, 0, 5, 0);
-            this.SidePanel.Size = new System.Drawing.Size(327, 449);
+            this.SidePanel.Padding = new System.Windows.Forms.Padding(0, 0, 7, 0);
+            this.SidePanel.Size = new System.Drawing.Size(504, 763);
             this.SidePanel.TabIndex = 5;
             this.SidePanel.Visible = false;
             this.SidePanel.VisibleChanged += new System.EventHandler(this.SidePanel_VisibleChanged);
@@ -651,9 +682,10 @@
             // 
             this.WaitingBar.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.WaitingBar.Image = global::MiMFa.Properties.Resources.ProgressBarLight;
-            this.WaitingBar.Location = new System.Drawing.Point(327, 419);
+            this.WaitingBar.Location = new System.Drawing.Point(504, 727);
+            this.WaitingBar.Margin = new System.Windows.Forms.Padding(4);
             this.WaitingBar.Name = "WaitingBar";
-            this.WaitingBar.Size = new System.Drawing.Size(723, 2);
+            this.WaitingBar.Size = new System.Drawing.Size(956, 2);
             this.WaitingBar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.WaitingBar.TabIndex = 4;
             this.WaitingBar.TabStop = false;
@@ -661,13 +693,14 @@
             // 
             // ReportView
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.WaitingBar);
             this.Controls.Add(this.ManagePanel);
             this.Controls.Add(this.SidePanel);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ReportView";
-            this.Size = new System.Drawing.Size(1050, 449);
+            this.Size = new System.Drawing.Size(1460, 763);
             this.BackColorChanged += new System.EventHandler(this.ReportView_BackColorChanged);
             this.ForeColorChanged += new System.EventHandler(this.ReportView_ForeColorChanged);
             this.TemplatePanel.ResumeLayout(false);
@@ -731,5 +764,6 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         public System.Windows.Forms.Button NextButton;
         public System.Windows.Forms.Button BackButton;
+        public System.Windows.Forms.Button SidePanelEditButton;
     }
 }

@@ -390,7 +390,6 @@ D:\Product\Technology\MiMFa Framework\MiMFa Framework\Reporter\obj\Debug\MiMFa.R
 D:\Product\Technology\MiMFa Framework\MiMFa Framework\Reporter\obj\Debug\MiMFa.Reporter.csproj.CopyComplete
 D:\Product\Technology\MiMFa Framework\MiMFa Framework\Reporter\obj\Debug\MiMFa Framework.Report.dll
 D:\Product\Technology\MiMFa Framework\MiMFa Framework\Reporter\obj\Debug\MiMFa Framework.Report.pdb
-D:\Product\Technology\MiMFa Framework\MiMFa Framework\Reporter\bin\Debug\Aspose.Words.dll
 D:\Product\Technology\MiMFa Framework\MiMFa Framework\Reporter\bin\Debug\CefSharp.Core.Runtime.xml
 D:\Product\Technology\MiMFa Framework\MiMFa Framework\Reporter\bin\Debug\MiMFa Editor.exe
 D:\Product\Technology\MiMFa Framework\MiMFa Framework\Reporter\bin\Debug\MiMFa Editor.pdb
@@ -476,3 +475,4 @@ D:\Product\Technology\MiMFa Framework\MiMFa Framework\Reporter\bin\Debug\Newtons
 D:\Product\Technology\MiMFa Framework\MiMFa Framework\Reporter\bin\Debug\Microsoft.ClearScript.V8.Native.win-x64.props
 D:\Product\Technology\MiMFa Framework\MiMFa Framework\Reporter\bin\Debug\Microsoft.ClearScript.V8.Native.win-x86.props
 D:\Product\Technology\MiMFa Framework\MiMFa Framework\Reporter\obj\Debug\MiMFa.Reporter.csproj.AssemblyReference.cache
+D:\Product\Technology\MiMFa Framework\MiMFa Framework\Reporter\bin\Debug\Aspose.Words.dll
